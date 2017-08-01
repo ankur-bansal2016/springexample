@@ -48,6 +48,7 @@ public class App {
 	        
 	        List<Employee> employees = jdbcEmployeeDAO.findAll();
 	        System.out.println("Updated column name of table: " + employees);	
+			  System.out.println("Updated column name of table: " + employees);	
 	        
 	        System.out.println(" FindAll : " + jdbcEmployeeDAO.findAll());
 			context.close();
